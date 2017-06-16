@@ -12,7 +12,7 @@ function drawChart() {
   // Create the data table.
   var data = new google.visualization.DataTable();
   data.addColumn('string', 'Topping');
-  data.addColumn('number', 'Slices');
+  data.addColumn('number', 'People Who Like It');
   data.addRows([
     ['Tomato', 6],
     ['Pepperoni', 7],
@@ -22,7 +22,7 @@ function drawChart() {
   ]);
 
   // Set chart options
-  var options = {'title':'How Much Pizza I Ate Last Night',
+  var options = {'title':'Popular Pizza Toppings',
                  'width':400,
                  'height':300};
 
