@@ -14,11 +14,11 @@ function drawChart() {
   data.addColumn('string', 'Topping');
   data.addColumn('number', 'Slices');
   data.addRows([
-    ['Mushrooms', 3],
-    ['Onions', 1],
-    ['Olives', 1],
-    ['Zucchini', 1],
-    ['Pepperoni', 2]
+    ['Tomato', 6],
+    ['Pepperoni', 7],
+    ['Chili', 4],
+    ['Shrimp', 1],
+    ['Pineapple', 6]
   ]);
 
   // Set chart options
